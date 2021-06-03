@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="styles.css" >
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet"> 
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <title>Iniciar Sesion</title>
+    </head>
+    <body>
+       <div class="contenedor">
+           
+           <div class="formulario">
+                <div class="formulariobtn">
+                    <div class="fund">
+                        <button id="loginbtn" class="button-toggle button" >Log In</button>
+                        <button id="registerbtn" class="button"> Register</button>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a target="_blank" href="https://accounts.google.com/signin/v2/identifier?hl=es-419&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="google-mas.svg"></a>
+                    <a target="_blank" href="https://es-es.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjIyNTIxMzI1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D"><img src="facebook.svg"></a>
+                    <a target="_blank" href="https://www.instagram.com/accounts/login/" ><img src="instagram.svg"></a>
+                </div>
+                <form id="login-form" class="login-form traslate-login">
+                    <input class="viewportconfig" type="text" placeholder="User ID"><br>
+                    <input class="viewportconfig" type="password" placeholder="Password">
+                    <button id="submit" type="submit">Log In</button><br>
+                    <div class="box-check">
+                        <input type = "checkbox" id="chechbox-verify">
+                        <label for="checkbox-verify">Remember me</label>
+                    </div>
+                </form>
+                <form id="register-form" class="translate-register">
+                    <input class="register-name" type="text" placeholder="Name">
+                    <input class="register-last-name" type="text" placeholder="Last Name"><br>
+                    <input class="" type="text" placeholder="User ID">
+                    <input class="  type="email" placeholder="Email">
+                    <input class="" type="password" placeholder="Password"><br>
+                    <input class="" type="password" placeholder="Confirm Password"><br>
+                    <button class="submit-register" type="submit">Register</button><br>
+                 </form>
+           </div>
+       </div>
+        <footer>
+            <div class="contactMe">
+                <a href="https://github.com/gountz" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-github' ></i>
+                </a>
+                <a href="https://www.instagram.com" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+            </div>
+            <p>Page designed by Tomás Graziano</p>
+            <div class="publicity">Icons designed by <a class="icon" target="_blank" href="https://www.flaticon.es/autores/pixel-buddha" title="Pixel Buddha"> Pixel Buddha </a> from <a target="_blank" class="icon" href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+
+            
+        </footer>
+
+        <script src="app.js"></script>    
+    </body>
+
+</html>
