@@ -3,7 +3,6 @@ const register = document.getElementById('registerbtn');
 const formRegister = document.getElementById('register-form');
 const formLogin = document.getElementById('login-form')
 document.addEventListener('click',e=>{
-    console.log(e.target)
     if(e.target===login){
         login.classList.add("button-toggle");
         register.classList.remove("button-toggle");
